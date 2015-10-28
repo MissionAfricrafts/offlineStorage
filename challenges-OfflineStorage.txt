@@ -1,0 +1,5 @@
+Challenges while creating the OfflineStorage plugin
+
+1. How to return a boolean value from the plugin, means how to invoke a function which will return a value from plugin?
+
+	for the above challenge first you need to assign a function to the variable and the result of the variable is boolean. Then in plugin js you need to check the condition and return boolean value

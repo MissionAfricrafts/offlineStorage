@@ -1,0 +1,16 @@
+Documentation for creating the offline Storage plugin using jquery:
+
+Method for Storing the data in HTML5 webStorage
+
+	1. First create a method which is used to check whether the loaded browser will support the html5 storage or not
+	
+		Ex: To invoke a function to check the storage compatibility then you need to follow the following steps
+		
+		In Calling Js:
+		var isWebStorage = objectName.isStorageAvailable();//objectName is the object which we are going to store the values to webStorage.
+		
+	2. Before saving the object to webStorage in source js, condition has to check whether the webStorage s supported by the loaded 	browser. Create a method which is used to store the object in SessionStorage/LocalStorage 
+		Method Name: storeObject NumberOfParameters : 2 (key,storeObject)
+	
+	3. Once the object is saved successfully to the webStorage then, create a method which is used to retrieve the saved value with the key.
+		Method Name : retriveObject NumberOfParameters : 1 (keyName)
