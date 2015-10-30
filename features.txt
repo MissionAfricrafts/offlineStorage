@@ -1,0 +1,13 @@
+The List of features included in offline storage plugin :
+
+	Storing the objects in local storage.
+	
+	Retrieving the objects with the key as input.
+	
+	Checking for the localstorage limit.
+	
+	To make the site offline using manifest file
+	
+	Dynamic update of app manifest file.
+	
+	IndexDB usage.
